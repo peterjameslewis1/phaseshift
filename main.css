@@ -1,0 +1,716 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* NAVBAR */
+
+.flex {
+    display: flex;
+    background: black;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    width: 100%;
+}
+
+.logo {
+    width: 90%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 12px auto;
+}
+
+.logo-h2 {
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0;
+    padding-right: 30px;
+}
+
+.logo-p {
+    display: none;
+}
+
+.menu {
+    width: 64px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 12px;
+    left: 0px;
+    padding-right: 15px;
+}
+
+.menu i {
+    color: white;
+}
+
+#nav {
+    display: none;
+}
+
+
+
+/* BANNER */
+
+
+
+.wrapper {
+    background-image: url('https://templated.co/items/demos/phaseshift/images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center top;
+    margin-top: 40px;
+}
+
+.banner {
+   padding: 45px 30px 85px 30px;
+   text-align: center;
+}
+
+.banner p {
+    font-size: 16px;
+    color: white;
+    line-height: 29px;
+    margin-bottom: 35px;
+}
+
+.banner a {
+    color: white;
+    text-decoration: underline;
+}
+
+.banner-btn {
+    width: 100%;
+    max-width: 365px;
+    height: 50px;
+    background-color: #d84780;
+    color: white;
+    border-radius: 7px;
+    line-height: 50px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 0 auto;
+    font-weight: 600;
+}
+
+
+
+/* MAIN-CONTENT */
+
+
+.container {
+    max-width: 100%;
+}
+
+
+
+.main-img {
+    width: 100%;
+}
+
+.content-text {
+    background-color: white;
+    color: black;
+    border-radius: 0 0 7px 7px;
+    text-align: center;
+    padding: 45px 30px;
+    margin-bottom: 20px;
+}
+
+.content-text p {
+    font-size: 14.5px;
+    opacity: 0.5;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+.main-btn {
+    background-color: #d84780;
+    color: white;
+    font-weight: 600;
+    height: 45px;
+    border-radius: 5px;
+    line-height: 45px;
+    font-size: 16px;
+    margin: 0 auto;
+    max-width: 335px;
+}
+
+
+
+/* EXTRA-CONTENT */
+
+
+.row-extra {
+    margin: 40px 0;
+}
+
+article {
+    display: flex;
+    border-top: rgba(255, 255, 255, 0.2) 1px solid;
+    padding: 50px 0 20px 0;
+    color: white;
+    font-size: 14.5px;
+    font-weight: 200;
+}
+
+article h1 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+article p {
+    opacity: 0.8;
+    line-height: 25px;
+}
+
+.icon {
+    width: 15%;
+    font-size: 40px;
+    color: white;
+    justify-content: left;
+    display: flex;
+
+}
+
+.extra-text {
+    width: 85%;
+}
+
+
+
+
+/* FORM */
+
+
+
+.form-container {
+    text-align: center;
+    background-color: #d84780;
+    padding: 50px 0;
+}
+
+.form-container h1 {
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+}
+
+.form-container p {
+    font-size: 16px; 
+    font-weight: 300;
+    color: white;
+    margin: 7px 30px;
+}
+
+form {
+    margin: 40px 0 0 0;
+    width: 100%;
+}
+
+input {
+    display: block;
+    margin: 15px auto;
+    width: 95%;
+    border-radius: 7px;
+    padding: 12px 10px;
+    font-size: 14px;
+    font-weight: 100;
+    border: none;
+}
+
+#message {
+    width: 95%;
+    font-size: 14px;
+    font-weight: 100;
+    border-radius: 7px;
+    padding: 10px 10px 0 10px;
+}
+
+.form-btn {
+    width: 190px;
+    font-size: 14px;
+    background: transparent;
+    border: 1px solid white;
+    margin: 0 auto;
+    color: white;
+    height: 45px;
+    line-height: 45px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+
+.footer-container {
+    background-color: rgb(14, 14, 14);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 3em 0;
+}
+
+.footer-container p {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.2);
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.footer-container a {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.footer-container li {
+    display: inline-block;
+    margin-left: 12px;
+    color: grey;
+    border-radius: 50%;
+    border: 1px solid grey;
+    width: 28px;
+    height: 28px;
+    line-height: 25px;
+    cursor: pointer;
+}
+
+.footer-container i {
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 641px) {
+    #integer {
+        border-top: none;
+        padding: 60px 0 20px 0;
+    }
+
+    #aliquam {
+        padding-bottom: 50px;
+    }
+
+    .form-container {
+        padding: 90px 0;
+    }
+
+    .form-container h1 {
+        font-size: 26.5px;
+    }
+
+    .footer-container p {
+        font-size: 14.5px;
+    }
+
+    input {
+        margin-bottom: 20px;
+    }
+
+    .form-btn {
+        letter-spacing: 2px;
+        font-size: 15.5px;
+        margin-top: 15px;
+    }
+
+    .footer-container {
+        padding-bottom: 70px;
+    }
+} 
+
+
+
+
+
+@media screen and (min-width: 769px) {
+    .row-extra {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .col-md-6 {
+        max-width: 100%;
+    }
+
+    .icon {
+        width: 10%;
+    }
+
+    .extra-text h1 {
+        font-size: 18px;
+    }
+
+    .extra-text p {
+        font-size: 14px;
+    }
+
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 841px) {
+
+
+
+    .flex {
+        display: flex;
+        padding: 20px;
+        position: static;
+    }
+
+    .wrapper {
+        margin: 0;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .logo {
+        align-items: center;
+        width: 45%;
+    }
+
+    .logo-h2 {
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        left: 25px;
+        font-size: 17.5px;
+        letter-spacing: 0;
+    }
+
+    .logo-p {
+        display: inline;
+        opacity: 0.3;
+        margin: 0;
+        position: absolute;
+        left: 140px;
+        top: 22px;
+    }
+
+    #nav {
+        color: white;
+        width: 55%;
+        display: flex;
+    }
+
+    #nav ul {
+       margin: 0;
+       display: flex;
+       justify-content: space-between;
+       width: 100%;
+    }
+
+    #nav li {
+        display: inline;
+        font-size: 14.5px;
+        font-weight: 400;
+        opacity: 0.7;
+    }
+
+    .banner {
+        width: 95%;
+        margin: 0 auto;
+        padding: 110px 0 100px 0;
+    }
+
+    .banner p {
+        font-size: 22px;
+        font-weight: 300;
+        width: 100%;
+        line-height: 38px;
+        margin-bottom: 40px;
+    }
+
+    .banner-btn {
+        height: 60px;
+        width: 231px;
+        max-width: 29%;
+        font-size: 24px;
+        line-height: 60px;
+    }
+
+    .banner strong {
+        font-weight: bold;
+    }
+
+
+
+
+    /* MAIN-CONTENT */
+
+
+
+
+    .main-btn {
+        max-width: 155px;
+        font-size: 17.5px;
+    }
+
+
+
+    /* EXTRA-CONTENT */ 
+
+
+
+    .row-extra {
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        margin: 20px 0;
+    }
+
+    article {
+        border-top: none;
+    }
+
+    .extra-text h1 {
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    .extra-text p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .integer1, .aliquam1 {
+        border-bottom: rgba(255, 255, 255, 0.2) 1px solid;
+    }
+
+    .icon {
+        width: 20%;
+    }
+
+    #aliquam, #integer {
+        padding: 50px 0;
+    }
+
+
+
+    /* FORM */
+
+
+
+    form {
+        width: 70%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .form-container {
+        padding: 85px 0;
+    }
+
+    .form-container h1 {
+        font-size: 37px;
+        font-weight: 800;
+    }
+
+    .form-container p {
+        padding-bottom: 30px;
+        letter-spacing: 1px;
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+@media screen and (min-width: 981px) {
+
+
+    .main {
+        max-width: 982px;
+        margin: 0 auto;
+    }
+
+    .banner {
+        max-width: 982px;
+    }
+
+
+    /* BANNER */
+
+    .logo h2 {
+        font-size: 20px;
+    }
+
+    .logo p {
+        left: 155px;
+    }
+
+    #nav {
+        width: 50%;
+    }
+
+    #nav li {
+        font-size: 16px;
+    }
+
+    .banner p {
+        font-size: 24px;
+    }
+
+    .banner-btn {
+        height: 70px;
+        width: 251px;
+        max-width: 29%;
+        font-size: 26px;
+        line-height: 70px;
+    }
+
+
+
+
+    /* MAIN-CONTENT */
+
+
+    .content-text p {
+        font-size: 16px;
+        padding-top: 10px;
+    }
+
+    .main-btn {
+        max-width: 165px;
+        height: 55px;
+        font-size: 19px;
+        line-height: 55px;
+    }
+
+
+
+    /* EXTRA-CONTENT */
+
+
+    article {
+        padding: 40px 0;
+        padding-left: 10px;
+    }
+
+    .icon {
+        font-size: 40px;
+    }
+
+
+    .extra-text h1 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    .extra-text p {
+        line-height: 30px;
+    }
+
+
+
+    /* FORM */
+
+
+    .form-container h1 {
+        font-size: 40px;
+    }
+
+    .form-container p {
+        font-size: 16px;
+    }
+
+    form {
+        max-width: 700px;
+        width: 100%;
+        margin: 0 auto;
+        border: none;
+        margin-top: 30px;
+    }
+
+    #message {
+        padding-bottom: 20px;
+    }
+
+    .form-btn {
+        height: 60px;
+        width: 210px;
+        line-height: 60px;
+        font-size: 20px;
+        letter-spacing: 0;
+    }
+
+
+}
+
+
+
+
+
+@media screen and (min-width: 1282px) {
+    .main {
+        max-width: 1282px;
+    }
+
+    .banner {
+        max-width: 1282px;
+    }
+
+    .banner p {
+        font-size: 28px;
+        padding: 0 75px;
+        text-align: center;
+        line-height: 50px;
+    }
+
+    #nav {
+        width: 40%;
+    }
+
+    .content-text { 
+        padding: 48px 40px;
+        text-align: center;
+    }
+
+    .content-text p {
+        max-width: 350px;
+        padding: 0;
+    }
+
+    .form-container h1 {
+        font-size: 45px;
+    }
+
+    .form-container p {
+        font-size: 21px;
+    }
+
+
+    form {
+        max-width: 900px;
+    }
+
+    input {
+        padding: 15px 0 15px 10px;
+    }
+
+    .footer-container p {
+        font-size: 16px;
+    }
+}
