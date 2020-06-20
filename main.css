@@ -5,6 +5,13 @@
     font-family: 'Raleway', sans-serif;
 }
 
+.btn:hover {
+    background: white;
+    color: #d84780;
+    cursor: pointer;
+    border: 1px solid #d84780;
+}
+
 /* NAVBAR */
 
 .flex {
@@ -59,6 +66,8 @@
 
 
 
+
+
 /* BANNER */
 
 
@@ -73,8 +82,8 @@
 }
 
 .banner {
-   padding: 45px 30px 85px 30px;
-   text-align: center;
+    padding: 45px 30px 85px 30px;
+    text-align: center;
 }
 
 .banner p {
@@ -207,7 +216,7 @@ article p {
 }
 
 .form-container p {
-    font-size: 16px; 
+    font-size: 16px;
     font-weight: 300;
     color: white;
     margin: 7px 30px;
@@ -330,13 +339,13 @@ input {
     .footer-container {
         padding-bottom: 70px;
     }
-} 
+}
 
 
 
 
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
     .row-extra {
         display: flex;
         flex-direction: column;
@@ -415,10 +424,10 @@ input {
     }
 
     #nav ul {
-       margin: 0;
-       display: flex;
-       justify-content: space-between;
-       width: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
     }
 
     #nav li {
@@ -469,7 +478,7 @@ input {
 
 
 
-    /* EXTRA-CONTENT */ 
+    /* EXTRA-CONTENT */
 
 
 
@@ -494,7 +503,8 @@ input {
         line-height: 30px;
     }
 
-    .integer1, .aliquam1 {
+    .integer1,
+    .aliquam1 {
         border-bottom: rgba(255, 255, 255, 0.2) 1px solid;
     }
 
@@ -502,7 +512,8 @@ input {
         width: 20%;
     }
 
-    #aliquam, #integer {
+    #aliquam,
+    #integer {
         padding: 50px 0;
     }
 
@@ -569,6 +580,12 @@ input {
         font-size: 16px;
     }
 
+    #nav ul li:hover {
+        color: white;
+        cursor: pointer;
+        opacity: 1;
+    }
+
     .banner p {
         font-size: 24px;
     }
@@ -578,7 +595,7 @@ input {
         width: 251px;
         max-width: 29%;
         font-size: 26px;
-        line-height: 70px;
+
     }
 
 
@@ -596,7 +613,7 @@ input {
         max-width: 165px;
         height: 55px;
         font-size: 19px;
-        line-height: 55px;
+
     }
 
 
@@ -656,6 +673,12 @@ input {
         letter-spacing: 0;
     }
 
+    .form-btn:hover {
+        background: white;
+        color: #d84780;
+        cursor: pointer;
+    }
+
 
 }
 
@@ -683,7 +706,7 @@ input {
         width: 40%;
     }
 
-    .content-text { 
+    .content-text {
         padding: 48px 40px;
         text-align: center;
     }
